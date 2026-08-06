@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Governance - VOGG Documentation Portal</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <span style="font-size: 24px;">🌍</span>
+            <span>VOGG Portal</span>
+        </div>
+        <div class="navbar-menu">
+            <button class="theme-toggle" id="theme-toggle">🌙</button>
+        </div>
+    </nav>
+
+    <aside class="sidebar">
+        <div class="sidebar-section-title">Documentation</div>
+        <div class="sidebar-item" onclick="navigateTo('architecture.html')">Architecture</div>
+        <div class="sidebar-item" onclick="navigateTo('specifications.html')">Specifications</div>
+        <div class="sidebar-item active" onclick="navigateTo('governance.html')">Governance</div>
+        <div class="sidebar-item" onclick="navigateTo('audits.html')">Audits</div>
+    </aside>
+
+    <main class="main-content">
+        <div class="container">
+            <h1>Governance & Standards</h1>
+            <p>Development standards, processes, and governance framework for VOGG.</p>
+
+            <h2>Coding Standards</h2>
+            <div class="card" style="margin-bottom: 20px;">
+                <h3>Enterprise Standards</h3>
+                <ul>
+                    <li>TypeScript strict mode (no implicit any)</li>
+                    <li>Conventional commit format</li>
+                    <li>JSDoc for public APIs</li>
+                    <li>80%+ test coverage required</li>
+                    <li>No console.log in production</li>
+                    <li>Environment-based configuration</li>
+                    <li>No hardcoded secrets</li>
+                </ul>
+            </div>
+
+            <h2>Definition of Done</h2>
+            <div class="card" style="margin-bottom: 20px;">
+                <h3>Universal & Feature-Specific Criteria</h3>
+                <p>15+ criteria ensuring quality:</p>
+                <ul>
+                    <li>Code compiles with zero errors</li>
+                    <li>Tests pass (80%+ coverage)</li>
+                    <li>Code reviewed (2 approvals)</li>
+                    <li>Documentation updated</li>
+                    <li>Security review passed</li>
+                    <li>Linting passed</li>
+                    <li>Database changes migrated</li>
+                    <li>Performance verified</li>
+                </ul>
+            </div>
+
+            <h2>Quality Gates</h2>
+            <div class="card">
+                <h3>7 Mandatory Checkpoints</h3>
+                <ol>
+                    <li>Build succeeds (TypeScript compilation)</li>
+                    <li>Lint passes (ESLint)</li>
+                    <li>Tests pass (80%+ coverage)</li>
+                    <li>Security scan passes</li>
+                    <li>Code review approved (2 reviewers)</li>
+                    <li>Integration tests pass</li>
+                    <li>Release checklist complete</li>
+                </ol>
+                <p>All gates must pass before code merge to main branch.</p>
+            </div>
+
+            <footer>
+                <div style="margin-bottom: 15px;">
+                    <strong>Rainbow VOGG Global Ltd</strong><br>
+                    <em>One Platform, Unlimited Possibilities.</em>
+                </div>
+                <p>© 2026 VOGG Project. All rights reserved.</p>
+            </footer>
+        </div>
+    </main>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>

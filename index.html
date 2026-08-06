@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="VOGG - Global Digital Governance Platform. Institutional investor documentation portal.">
+    <meta name="keywords" content="VOGG, digital governance, civic technology, institutional investment, DFI">
+    <title>VOGG Investor Portal v3.2 | Global Digital Governance Platform</title>
+    <link rel="stylesheet" href="assets/css/investor-style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="/" class="navbar-brand">
+            <span>🌍</span>
+            <span>VOGG</span>
+        </a>
+        <div class="navbar-menu">
+            <a href="#what-is-vogg">Platform</a>
+            <a href="#why-invest">Investment</a>
+            <a href="#documentation">Documentation</a>
+            <button class="theme-toggle" id="theme-toggle" title="Toggle Dark Mode">🌙</button>
+        </div>
+    </nav>
+
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <div class="sidebar-section-title">PLATFORM</div>
+        <div class="sidebar-item" onclick="scrollTo('#what-is-vogg')">What is VOGG?</div>
+        <div class="sidebar-item" onclick="scrollTo('#problem-solution')">Problem & Solution</div>
+        <div class="sidebar-item" onclick="scrollTo('#why-now')">Why Now?</div>
+        <div class="sidebar-item" onclick="scrollTo('#capabilities')">Capabilities</div>
+        
+        <div class="sidebar-section-title">INVESTOR INFORMATION</div>
+        <div class="sidebar-item" onclick="scrollTo('#why-invest')">Investment Case</div>
+        <div class="sidebar-item" onclick="scrollTo('#development-status')">Development Status</div>
+        <div class="sidebar-item" onclick="scrollTo('#governance')">Governance</div>
+        <div class="sidebar-item" onclick="scrollTo('#metrics')">Key Metrics</div>
+        
+        <div class="sidebar-section-title">DOCUMENTATION</div>
+        <div class="sidebar-item" onclick="navigateTo('pages/architecture.html')">Architecture</div>
+        <div class="sidebar-item" onclick="navigateTo('pages/specifications.html')">Specifications</div>
+        <div class="sidebar-item" onclick="navigateTo('pages/security.html')">Security</div>
+        <div class="sidebar-item" onclick="navigateTo('pages/audits.html')">Audits & Verification</div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Hero Section -->
+            <div class="hero-section">
+                <h1>VOGG</h1>
+                <p class="hero-subtitle">Global Digital Governance Infrastructure</p>
+                <p class="hero-tagline">One Platform. Every Nation. Unlimited Possibilities.</p>
+                <p class="hero-description">
+                    Enabling transparent, secure, and scalable digital governance for governments, institutions, enterprises, and communities worldwide.
+                </p>
+                <div class="hero-version">v3.2 | Last Updated: July 2026</div>
+            </div>
+
+            <!-- 60-Second Executive Summary -->
+            <section id="what-is-vogg" class="executive-summary">
+                <h2>VOGG at a Glance</h2>
+                <p><strong>What is VOGG?</strong> A universal digital governance platform enabling secure, transparent participation and decision-making across institutional and community sectors globally.</p>
+                
+                <p><strong>The Problem:</strong> Governments, institutions, and communities lack scalable, transparent digital infrastructure for collective decision-making and stakeholder engagement.</p>
+                
+                <p><strong>Our Solution:</strong> VOGG provides enterprise-grade digital governance infrastructure applicable across government, healthcare, education, enterprise, real estate, and community sectors.</p>
+                
+                <p><strong>Why Now?</strong> Global demand for digital governance, regulatory mandates for transparency, and citizen expectations for participation are accelerating institutional digital transformation.</p>
+                
+                <p><strong>Market Opportunity:</strong> Addressable market spans governments, institutions, enterprises, and communities across developed and emerging economies.</p>
+                
+                <p><strong>Investment Stage:</strong> Pre-commercialisation with complete architecture, specifications, and governance framework. Ready for MVP development with proper funding.</p>
+            </section>
+
+            <!-- Problem & Solution -->
+            <section id="problem-solution" class="section-cards">
+                <h2>The Opportunity</h2>
+                <div class="card-grid">
+                    <div class="solution-card">
+                        <h3>🔴 The Challenge</h3>
+                        <p>Institutional governance remains predominantly paper-based or siloed digital systems. Citizens are disconnected from decision-making processes. No global standard for transparent governance infrastructure exists.</p>
+                    </div>
+                    <div class="solution-card">
+                        <h3>🟢 The Solution</h3>
+                        <p>VOGG provides a unified, transparent, auditable digital governance platform. Multi-sector applicable. Designed for governments, enterprises, and communities. Globally scalable architecture.</p>
+                    </div>
+                    <div class="solution-card">
+                        <h3>📈 The Impact</h3>
+                        <p>Institutional trust through transparency. Citizen engagement at scale. Measurable governance outcomes. Operational efficiency. Compliance automation. Data-driven decision-making.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Why Now -->
+            <section id="why-now">
+                <h2>Market Catalysts</h2>
+                <div class="catalyst-list">
+                    <div class="catalyst-item">
+                        <span class="catalyst-number">1</span>
+                        <h4>Digital Governance Mandate</h4>
+                        <p>Regulatory requirements for government transparency are global. Citizens expect digital-first participation.</p>
+                    </div>
+                    <div class="catalyst-item">
+                        <span class="catalyst-number">2</span>
+                        <h4>Institutional Modernization</h4>
+                        <p>Organizations worldwide are digitizing governance processes. Demand for integrated platforms is accelerating.</p>
+                    </div>
+                    <div class="catalyst-item">
+                        <span class="catalyst-number">3</span>
+                        <h4>Trust & Transparency</h4>
+                        <p>Institutional trust is declining. Transparent, auditable governance infrastructure is increasingly essential.</p>
+                    </div>
+                    <div class="catalyst-item">
+                        <span class="catalyst-number">4</span>
+                        <h4>Technology Readiness</h4>
+                        <p>Cloud infrastructure, APIs, and security technologies enable global-scale governance platforms to be built now.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Platform Capabilities -->
+            <section id="capabilities">
+                <h2>Platform Capabilities</h2>
+                <div class="capabilities-grid">
+                    <div class="capability-card">
+                        <div class="capability-icon">🏛️</div>
+                        <h3>Governance</h3>
+                        <p>Institutional voting, proposal management, decision transparency</p>
+                    </div>
+                    <div class="capability-card">
+                        <div class="capability-icon">👥</div>
+                        <h3>Participation</h3>
+                        <p>Citizen engagement, community feedback, stakeholder collaboration</p>
+                    </div>
+                    <div class="capability-card">
+                        <div class="capability-icon">📊</div>
+                        <h3>Analytics</h3>
+                        <p>Real-time data insights, sentiment analysis, institutional reporting</p>
+                    </div>
+                    <div class="capability-card">
+                        <div class="capability-icon">🔒</div>
+                        <h3>Security</h3>
+                        <p>Enterprise-grade encryption, data privacy, compliance frameworks</p>
+                    </div>
+                    <div class="capability-card">
+                        <div class="capability-icon">🌐</div>
+                        <h3>Global Scale</h3>
+                        <p>Multi-language, multi-currency, institutional deployment worldwide</p>
+                    </div>
+                    <div class="capability-card">
+                        <div class="capability-icon">🤖</div>
+                        <h3>AI Integration</h3>
+                        <p>AI-powered recommendations, decision support, automated insights</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Development Status -->
+            <section id="development-status">
+                <h2>Development Status</h2>
+                <div class="status-grid">
+                    <div class="status-item completed">
+                        <div class="status-check">✅</div>
+                        <h4>Documentation</h4>
+                        <p>61 comprehensive documents | 92,813 lines</p>
+                    </div>
+                    <div class="status-item completed">
+                        <div class="status-check">✅</div>
+                        <h4>Architecture</h4>
+                        <p>11-part enterprise blueprint | Full specifications</p>
+                    </div>
+                    <div class="status-item completed">
+                        <div class="status-check">✅</div>
+                        <h4>Specifications</h4>
+                        <p>API contracts | Database design | Requirements</p>
+                    </div>
+                    <div class="status-item completed">
+                        <div class="status-check">✅</div>
+                        <h4>Business Planning</h4>
+                        <p>Market analysis | Financial models | Go-to-market</p>
+                    </div>
+                    <div class="status-item completed">
+                        <div class="status-check">✅</div>
+                        <h4>Governance</h4>
+                        <p>Risk frameworks | Compliance standards | Security</p>
+                    </div>
+                    <div class="status-item pending">
+                        <div class="status-check">⏳</div>
+                        <h4>MVP Development</h4>
+                        <p>Sprint 0 | 12-16 week timeline</p>
+                    </div>
+                    <div class="status-item pending">
+                        <div class="status-check">🚀</div>
+                        <h4>Beta Deployment</h4>
+                        <p>Pilot deployments | Week 16+</p>
+                    </div>
+                    <div class="status-item pending">
+                        <div class="status-check">📈</div>
+                        <h4>Market Launch</h4>
+                        <p>Commercial availability | Phase 2</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Investment Opportunity -->
+            <section id="why-invest">
+                <h2>Investment Opportunity</h2>
+                <div class="investment-grid">
+                    <div class="investment-card">
+                        <h3>Current Stage</h3>
+                        <p><strong>Pre-commercialisation</strong> with complete documentation, architecture, and governance framework ready for MVP development.</p>
+                    </div>
+                    <div class="investment-card">
+                        <h3>Capital Requirement</h3>
+                        <p><strong>US$6,000,000</strong> Growth Capital Facility for team assembly, MVP development, beta deployment, and initial market validation.</p>
+                    </div>
+                    <div class="investment-card">
+                        <h3>Use of Proceeds</h3>
+                        <p>Engineering (40%) | Infrastructure (25%) | Market Validation (20%) | Operations (15%)</p>
+                    </div>
+                    <div class="investment-card">
+                        <h3>Why Invest</h3>
+                        <p>Large TAM, globally scalable model, clear regulatory tailwinds, experienced team, professional execution readiness.</p>
+                    </div>
+                    <div class="investment-card">
+                        <h3>Path to Revenue</h3>
+                        <p>SaaS licensing model, transaction fees, premium features, implementation services, long-term institutional contracts.</p>
+                    </div>
+                    <div class="investment-card">
+                        <h3>Due Diligence</h3>
+                        <p>Complete technical, financial, and legal documentation available. Independent audit reports. Risk assessments included.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Corporate Governance -->
+            <section id="governance">
+                <h2>Corporate Governance</h2>
+                <div class="governance-framework">
+                    <div class="governance-item">
+                        <h4>Compliance Philosophy</h4>
+                        <p>VOGG operates with institutional-grade compliance standards. Full regulatory compliance across all operational jurisdictions.</p>
+                    </div>
+                    <div class="governance-item">
+                        <h4>Technology Governance</h4>
+                        <p>Enterprise architecture review board, change management protocols, security governance, data governance framework.</p>
+                    </div>
+                    <div class="governance-item">
+                        <h4>Risk Oversight</h4>
+                        <p>Comprehensive risk register, mitigation strategies, dependency management, vendor risk assessment.</p>
+                    </div>
+                    <div class="governance-item">
+                        <h4>Cybersecurity</h4>
+                        <p>Enterprise security architecture, regular audits, compliance certifications, incident response protocols.</p>
+                    </div>
+                    <div class="governance-item">
+                        <h4>Data Governance</h4>
+                        <p>Privacy-by-design, GDPR/CCPA compliance, data classification standards, access control frameworks.</p>
+                    </div>
+                    <div class="governance-item">
+                        <h4>Ethical AI</h4>
+                        <p>Responsible AI principles, bias mitigation, transparency in decision-making, human oversight.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Key Metrics -->
+            <section id="metrics">
+                <h2>Project Metrics</h2>
+                <div class="metrics-grid">
+                    <div class="metric">
+                        <div class="metric-value">61</div>
+                        <div class="metric-label">Documentation Files</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">92,813</div>
+                        <div class="metric-label">Documentation Lines</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">20+</div>
+                        <div class="metric-label">API Endpoints</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">11</div>
+                        <div class="metric-label">Database Tables</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">13</div>
+                        <div class="metric-label">Doc Categories</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">1.2 MB</div>
+                        <div class="metric-label">Knowledge Base</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">5</div>
+                        <div class="metric-label">ADRs</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">80%+</div>
+                        <div class="metric-label">Test Coverage</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Technology Stack -->
+            <section>
+                <h2>Enterprise Technology Stack</h2>
+                <div class="tech-grid">
+                    <span class="tech-badge">React</span>
+                    <span class="tech-badge">Node.js</span>
+                    <span class="tech-badge">TypeScript</span>
+                    <span class="tech-badge">PostgreSQL</span>
+                    <span class="tech-badge">Redis</span>
+                    <span class="tech-badge">Docker</span>
+                    <span class="tech-badge">Kubernetes</span>
+                    <span class="tech-badge">Terraform</span>
+                    <span class="tech-badge">AWS</span>
+                    <span class="tech-badge">REST APIs</span>
+                    <span class="tech-badge">WebSockets</span>
+                    <span class="tech-badge">AI/ML Ready</span>
+                </div>
+            </section>
+
+            <!-- Documentation Access -->
+            <section id="documentation">
+                <h2>Documentation & Technical Resources</h2>
+                <div class="doc-grid">
+                    <div class="doc-item" onclick="navigateTo('pages/architecture.html')">
+                        <h3>🏗️ Architecture</h3>
+                        <p>System design, components, technical decisions</p>
+                    </div>
+                    <div class="doc-item" onclick="navigateTo('pages/specifications.html')">
+                        <h3>📋 Specifications</h3>
+                        <p>API contracts, database schema, requirements</p>
+                    </div>
+                    <div class="doc-item" onclick="navigateTo('pages/audits.html')">
+                        <h3>🔍 Audits & Verification</h3>
+                        <p>Independent audits, verification reports</p>
+                    </div>
+                    <div class="doc-item" onclick="navigateTo('pages/governance.html')">
+                        <h3>⚙️ Governance</h3>
+                        <p>Standards, frameworks, best practices</p>
+                    </div>
+                    <div class="doc-item" onclick="navigateTo('pages/roadmap.html')">
+                        <h3>🗺️ Roadmap</h3>
+                        <p>Implementation timeline, milestones</p>
+                    </div>
+                    <div class="doc-item" onclick="scrollTo('#data-access')">
+                        <h3>🔐 Investor Materials</h3>
+                        <p>Due diligence access (restricted)</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Restricted Data Access Info -->
+            <section id="data-access" class="restricted-info">
+                <h2>Confidential Due Diligence Access</h2>
+                <p>Financial models, investment memoranda, detailed financial projections, and sensitive business strategy documents are available upon qualified investor request under NDA.</p>
+                <p><strong>To request access:</strong> Contact investors@rainbowvogg.com with investor qualifications.</p>
+            </section>
+
+            <!-- Company Information -->
+            <section class="company-info">
+                <h2>Company</h2>
+                <div class="company-grid">
+                    <div class="company-item">
+                        <h4>Entity</h4>
+                        <p><strong>Rainbow VOGG Global Ltd</strong><br>Developer and commercializer of the VOGG platform.</p>
+                    </div>
+                    <div class="company-item">
+                        <h4>Headquarters</h4>
+                        <p>Catherine Plaza<br>Rumuekini–Aluu Road<br>Port Harcourt, Rivers State<br>Nigeria</p>
+                    </div>
+                    <div class="company-item">
+                        <h4>Global Positioning</h4>
+                        <p>VOGG is designed as globally scalable digital public infrastructure, not country-specific software. Applicable worldwide across all sectors.</p>
+                    </div>
+                    <div class="company-item">
+                        <h4>Contact</h4>
+                        <p><strong>Email:</strong> info@rainbowvogg.com<br><strong>Investors:</strong> investors@rainbowvogg.com<br><strong>Web:</strong> www.rainbowvogg.com</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer>
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <h3>Rainbow VOGG Global Ltd</h3>
+                        <p>One Platform. Every Nation. Unlimited Possibilities.</p>
+                    </div>
+                    <div class="footer-legal">
+                        <p><strong>VOGG Investor Documentation Portal v3.2</strong></p>
+                        <p>© 2026 Rainbow VOGG Global Ltd. All rights reserved.</p>
+                        <p>Last Updated: July 2026</p>
+                        <p style="font-size: 12px; margin-top: 15px;">This portal contains forward-looking statements. Actual results may differ materially. Confidential information for authorized investors only.</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

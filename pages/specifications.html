@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specifications - VOGG Documentation Portal</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <span style="font-size: 24px;">🌍</span>
+            <span>VOGG Portal</span>
+        </div>
+        <div class="navbar-menu">
+            <button class="theme-toggle" id="theme-toggle">🌙</button>
+        </div>
+    </nav>
+
+    <aside class="sidebar">
+        <div class="sidebar-section-title">Documentation</div>
+        <div class="sidebar-item" onclick="navigateTo('architecture.html')">Architecture</div>
+        <div class="sidebar-item active" onclick="navigateTo('specifications.html')">Specifications</div>
+        <div class="sidebar-item" onclick="navigateTo('governance.html')">Governance</div>
+        <div class="sidebar-item" onclick="navigateTo('audits.html')">Audits</div>
+    </aside>
+
+    <main class="main-content">
+        <div class="container">
+            <h1>Specifications</h1>
+            <p>Complete technical specifications for VOGG V1 implementation.</p>
+
+            <h2>API Specification</h2>
+            <div class="card" style="margin-bottom: 20px;">
+                <h3>OpenAPI 3.1 Contract</h3>
+                <p>20+ endpoint specifications including:</p>
+                <ul>
+                    <li>Authentication endpoints (5 endpoints)</li>
+                    <li>User management (3 endpoints)</li>
+                    <li>Organization management (7 endpoints)</li>
+                    <li>Governance/Voting (7 endpoints)</li>
+                </ul>
+                <p>All endpoints documented with request/response schemas, error codes, and examples.</p>
+            </div>
+
+            <h2>Database Schema</h2>
+            <div class="card" style="margin-bottom: 20px;">
+                <h3>11 Tables - Complete Design</h3>
+                <ul>
+                    <li>users - User authentication and profiles</li>
+                    <li>organizations - Organization data</li>
+                    <li>roles - Role definitions</li>
+                    <li>user_roles - User role assignments</li>
+                    <li>entity_relationships - Organization relationships</li>
+                    <li>votes - Voting records</li>
+                    <li>vote_records - Individual votes cast</li>
+                    <li>audit_logs - System audit trail</li>
+                    <li>sessions - Active sessions</li>
+                    <li>Plus 2 supporting tables</li>
+                </ul>
+                <p>All tables with complete field specifications, constraints, and relationships.</p>
+            </div>
+
+            <h2>Functional Requirements</h2>
+            <div class="card">
+                <h3>Complete FRS (652 lines)</h3>
+                <p>Functional requirements specification covering:</p>
+                <ul>
+                    <li>User authentication and authorization</li>
+                    <li>Organization management</li>
+                    <li>Voting and governance module</li>
+                    <li>Audit and compliance</li>
+                    <li>All acceptance criteria</li>
+                </ul>
+            </div>
+
+            <footer>
+                <div style="margin-bottom: 15px;">
+                    <strong>Rainbow VOGG Global Ltd</strong><br>
+                    <em>One Platform, Unlimited Possibilities.</em>
+                </div>
+                <p>© 2026 VOGG Project. All rights reserved.</p>
+            </footer>
+        </div>
+    </main>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>

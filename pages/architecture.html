@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture - VOGG Documentation Portal</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <span style="font-size: 24px;">🌍</span>
+            <span>VOGG Portal</span>
+        </div>
+        <div class="navbar-menu">
+            <button class="theme-toggle" id="theme-toggle">🌙</button>
+        </div>
+    </nav>
+
+    <aside class="sidebar">
+        <div class="sidebar-section-title">Documentation</div>
+        <div class="sidebar-item active" onclick="navigateTo('architecture.html')">Architecture</div>
+        <div class="sidebar-item" onclick="navigateTo('specifications.html')">Specifications</div>
+        <div class="sidebar-item" onclick="navigateTo('governance.html')">Governance</div>
+        <div class="sidebar-item" onclick="navigateTo('audits.html')">Audits</div>
+        
+        <div class="sidebar-section-title">Planning</div>
+        <div class="sidebar-item" onclick="navigateTo('roadmap.html')">Roadmap</div>
+        <div class="sidebar-item" onclick="navigateTo('implementation.html')">Implementation</div>
+        
+        <div class="sidebar-section-title">Operations</div>
+        <div class="sidebar-item" onclick="navigateTo('operations.html')">Operations</div>
+        <div class="sidebar-item" onclick="navigateTo('pmo.html')">PMO</div>
+    </aside>
+
+    <main class="main-content">
+        <div class="container">
+            <h1>Architecture</h1>
+            <p>Complete architectural specifications and system design documentation for VOGG V1.</p>
+
+            <h2>Enterprise Architecture Blueprint</h2>
+            <div class="card" style="margin-bottom: 20px;">
+                <h3>11-Part System Design</h3>
+                <p>Complete specification of the VOGG platform architecture including:</p>
+                <ul>
+                    <li>System Overview & Core Components</li>
+                    <li>Frontend Architecture (React)</li>
+                    <li>Backend Architecture (Node.js + Express)</li>
+                    <li>Database Design (PostgreSQL)</li>
+                    <li>API Structure (REST + WebSockets)</li>
+                    <li>Authentication & Authorization</li>
+                    <li>Deployment Architecture</li>
+                    <li>Scaling Strategy</li>
+                    <li>Security Architecture</li>
+                    <li>Monitoring & Operations</li>
+                    <li>Future Expansion Plan</li>
+                </ul>
+                <p><a href="../docs/architecture/VOGG-ENTERPRISE-ARCHITECTURE-BLUEPRINT.md" download>📥 Download Full Document</a></p>
+            </div>
+
+            <h2>Technology Stack</h2>
+            <table>
+                <tr>
+                    <th>Component</th>
+                    <th>Technology</th>
+                    <th>Version</th>
+                </tr>
+                <tr>
+                    <td>Backend</td>
+                    <td>Node.js + Express</td>
+                    <td>Latest LTS</td>
+                </tr>
+                <tr>
+                    <td>Language</td>
+                    <td>TypeScript (strict mode)</td>
+                    <td>4.9+</td>
+                </tr>
+                <tr>
+                    <td>Frontend</td>
+                    <td>React</td>
+                    <td>18+</td>
+                </tr>
+                <tr>
+                    <td>Database</td>
+                    <td>PostgreSQL</td>
+                    <td>15+</td>
+                </tr>
+                <tr>
+                    <td>Caching</td>
+                    <td>Redis</td>
+                    <td>7+</td>
+                </tr>
+                <tr>
+                    <td>ORM</td>
+                    <td>Prisma</td>
+                    <td>5+</td>
+                </tr>
+                <tr>
+                    <td>Container</td>
+                    <td>Docker</td>
+                    <td>Latest</td>
+                </tr>
+                <tr>
+                    <td>IaC</td>
+                    <td>Terraform</td>
+                    <td>Latest</td>
+                </tr>
+                <tr>
+                    <td>CI/CD</td>
+                    <td>GitHub Actions</td>
+                    <td>Standard</td>
+                </tr>
+            </table>
+
+            <h2>Architecture Documents</h2>
+            <div class="hero-cards">
+                <div class="card">
+                    <h3>Enterprise Blueprint</h3>
+                    <p>Complete 11-part architecture specification (59 KB)</p>
+                </div>
+                <div class="card">
+                    <h3>Technical Architecture</h3>
+                    <p>Detailed system design and component specifications (17 KB)</p>
+                </div>
+                <div class="card">
+                    <h3>Ecosystem Architecture</h3>
+                    <p>Multi-sector platform architecture (11 KB)</p>
+                </div>
+                <div class="card">
+                    <h3>Engineering Decisions</h3>
+                    <p>5 critical architecture decision records with rationale (11 KB)</p>
+                </div>
+            </div>
+
+            <footer>
+                <div style="margin-bottom: 15px;">
+                    <strong>Rainbow VOGG Global Ltd</strong><br>
+                    <em>One Platform, Unlimited Possibilities.</em>
+                </div>
+                <p>© 2026 VOGG Project. All rights reserved.</p>
+            </footer>
+        </div>
+    </main>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>
